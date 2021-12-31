@@ -38,6 +38,10 @@ Plug 'StanAngeloff/php.vim'
 " PHP formater
 Plug 'stephpy/vim-php-cs-fixer'
 
+" Git Sign
+Plug 'nvim-lua/plenary.nvim'
+Plug 'lewis6991/gitsigns.nvim'
+
 call plug#end()
 
 " ==========================================
@@ -74,3 +78,6 @@ execute 'source '.nvim_settings_dir.'airline.vim'
 execute 'source '.nvim_settings_dir.'material.vim'
 execute 'source '.nvim_settings_dir.'javascript.vim'
 execute 'source '.nvim_settings_dir.'php-cs-fixer.vim'
+execute 'source '.nvim_settings_dir.'auto-pairs.vim'
+execute 'source '.nvim_settings_dir.'gitsigns.vim'
+
