@@ -32,15 +32,16 @@ Plug 'pangloss/vim-javascript'
 " HTML & CSS
 Plug 'mattn/emmet-vim'
 
-" PHP syntax highlight
-Plug 'StanAngeloff/php.vim'
-
-" PHP formater
-Plug 'stephpy/vim-php-cs-fixer'
+" PHP
+Plug 'StanAngeloff/php.vim' 		" syntax highlight
+Plug 'stephpy/vim-php-cs-fixer' 	" formater
 
 " Git Sign
 Plug 'nvim-lua/plenary.nvim'
 Plug 'lewis6991/gitsigns.nvim'
+
+" Golang
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 call plug#end()
 
