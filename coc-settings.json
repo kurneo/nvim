@@ -1,5 +1,6 @@
 {
     "phpactor.enable": true,
-    "phpactor.path": "/home/kuroneko/phpactor/bin/phpactor"
+    "phpactor.path": "/home/giangnn/phpactor/bin/phpactor",
+	"coc.preferences.formatOnSaveFiletypes": ["go"]
 }
 
