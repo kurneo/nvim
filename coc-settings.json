@@ -1,6 +1,13 @@
 {
     "phpactor.enable": true,
-    "phpactor.path": "/home/giangnn/phpactor/bin/phpactor",
-	"coc.preferences.formatOnSaveFiletypes": ["go"]
+    "phpactor.path": "~/.composer/phpactor/bin/phpactor",
+	"coc.preferences.formatOnSaveFiletypes": ["go"],
+	"languageserver": {
+  		"golang": {
+    		"command": "gopls",
+    		"rootPatterns": ["go.mod"],
+    		"filetypes": ["go"]
+  		}
+	}
 }
 

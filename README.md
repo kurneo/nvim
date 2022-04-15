@@ -43,8 +43,12 @@ git clone git@github.com:sunning97/nvim.git
 }
 
 ```
+4. Run on nvim
+```
+:CocInstall coc-phpactor
+```
 
-4. Update config path of <code>php-cs-fixer bin file</code> in <code>settings/php-cs-fixer.vim</code>
+5. Update config path of <code>php-cs-fixer bin file</code> in <code>settings/php-cs-fixer.vim</code>
 
 ```vim
 let g:php_cs_fixer_path = '/path-to-php-cs-fixer-bin-file'
@@ -54,5 +58,7 @@ let g:php_cs_fixer_path = '/path-to-php-cs-fixer-bin-file'
 
 1. Open neovim and run
 ```
-:CocInstall coc-go
+:GoInstallBinaries
 ```
+
+2. Add gopls to PATH
