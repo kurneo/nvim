@@ -8,6 +8,9 @@
     		"rootPatterns": ["go.mod"],
     		"filetypes": ["go"]
   		}
-	}
+	},
+	"eslint.packageManager": "yarn",
+  	"eslint.nodePath": ".yarn/sdks",
+  	"workspace.workspaceFolderCheckCwd": false
 }
 

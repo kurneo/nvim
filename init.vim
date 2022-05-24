@@ -67,6 +67,17 @@ nnoremap <F2> :bp<CR>
 map <leader>q :bp<bar>sp<bar>bn<bar>bd<CR>
 nnoremap <F6> :Files<CR>
 
+" don't use arrow key
+nnoremap <Left> <Nop>
+nnoremap <Right> <Nop>
+nnoremap <Down> <Nop>
+nnoremap <Up> <Nop>
+
+vnoremap <Left> <Nop>
+vnoremap <Right> <Nop>
+vnoremap <Down> <Nop>
+vnoremap <Up> <Nop>
+
 " ===========================================
 " PLUGINS SETTING
 " ===========================================
