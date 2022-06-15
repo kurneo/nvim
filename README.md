@@ -67,5 +67,12 @@ let g:php_cs_fixer_path = '/path-to-php-cs-fixer-bin-file'
 
 1. Open neovim and run
 ```
-::CocInstall coc-tsserver
+:CocInstall coc-tsserver
+```
+
+### For Vue:
+
+1. Open neovim and run
+```
+:CocInstall @yaegassy/coc-volar
 ```
