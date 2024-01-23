@@ -1,4 +1,4 @@
-# My personal neovim config for web development (PHP)
+# My personal neovim config for web development (PHP, Go)
 
 ## Plugins used:
 - [kaicataldo/material.vim](https://github.com/kaicataldo/material.vim)
