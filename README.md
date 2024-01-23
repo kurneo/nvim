@@ -16,6 +16,7 @@
 **!! Make sure to install [junegunn/vim-plug](https://github.com/junegunn/vim-plug) before do anything**
 ## Install:
 
+
 1. Clone this repo to <code>neovim config path</code> in your machine
 - On linux and macOS <code>~/. config</code>
 - On Window <code>~/AppData/Local</code>
